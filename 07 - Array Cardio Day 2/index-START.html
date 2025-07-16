@@ -38,15 +38,9 @@
     })
     console.log(Some);
     // Array.prototype.every() // is everyone 19 or older?
+    let currentYear = 2025
     const Every = people.every((x)=>{
-      let currentYear = 2025;
-      let listOf19 = 0;
-      if(currentYear - x.year >= 19){
-        return 1
-      }
-      else{
-        return -1
-      }
+    currentYear - x.year >= 19
     })
     console.log(Every);
     // Array.prototype.find()
